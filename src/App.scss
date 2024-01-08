@@ -1,0 +1,53 @@
+body {
+  background: black;
+}
+
+.calculator {
+  border: 1px solid white;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.output-screen {
+  min-height: 20px;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.calculator-input {
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: grey;
+  font-size: 20px;
+  cursor: default;
+}
+
+button:hover {
+  color: black;
+  outline: 0.1em solid white;
+  z-index: 3;
+}
+
+.large-button {
+  width: 160px;
+}
